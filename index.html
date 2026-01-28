@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titu-print.com</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR (GLOBAL) -->
+    <div class="container-fluid d-flex justify-content-center fixed-top navbar-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-box px-4 py-2">
+
+            <a class="navbar-brand logo-div" href="#">
+                <img src="./assets/img/logo.webp" alt="Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="fa-icons d-flex gap-3">
+                <a href="https://in.linkedin.com/company/tituprint"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/accounts/login/?next=%2Ftituprint%2F&source=omni_redirect&hl=en"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/tituprintdotcom/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="main-section">
+        <div class="overlay">
+            <h1>Trust. Consistency. Growth.</h1>
+            <p>Built on trust, consistency & long-term relationships. Worked with <br> leading brands like Xerox,
+                Panasonic,
+                Gionee (Super Agent across 4 states), <br> Realme, HP & Tecno. We also have the biggest print and thesis
+                center
+                in North India.</p>
+        </div>
+    </section>
+
+    <!-- CORE VALUES -->
+    <section class="services container my-5">
+        <p class="section-tag">OUR CORE VALUES</p>
+        <h2 class="section-title">What Drives Our Business</h2>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-handshake"></i>
+                <h3>Trust & Transparency</h3>
+                <p>Clear and honest partnerships.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Dealer First</h3>
+                <p>Growth focused dealer solutions.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-bullseye"></i>
+                <h3>Execution Focus</h3>
+                <p>Commitments backed by action.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-earth-americas"></i>
+                <h3>Long-Term Vision</h3>
+                <p>Building sustainable business.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES CAROUSEL -->
+    <section class="container my-5">
+
+        <!-- Heading -->
+        <div class="text-center mb-4">
+            <span class="section-tag">OUR SERVICES</span>
+            <h2>What We Offer</h2>
+        </div>
+
+        <div id="workspaceCarousel" class="carousel slide shadow rounded" data-bs-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#workspaceCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#workspaceCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#workspaceCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#workspaceCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#workspaceCarousel" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#workspaceCarousel" data-bs-slide-to="5"></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner rounded">
+
+                <div class="carousel-item active">
+                    <img src="./assets/img/work1.jpg" class="d-block w-100 carousel-img" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/work2.jpg" class="d-block w-100 carousel-img" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/work3.jpg" class="d-block w-100 carousel-img" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/work4.jpg" class="d-block w-100 carousel-img" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/work5.jpg" class="d-block w-100 carousel-img" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/work6.jpg" class="d-block w-100 carousel-img" alt="">
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#workspaceCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#workspaceCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- COUNTERS -->
+    <section class="container counting">
+        <div class="row g-4 text-center">
+
+            <div class="col-md-3">
+                <div class="counter-box colored">
+                    <span class="counter" data-count="35">35</span>
+                    <p>Years of excellence distribution</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="counter-box">
+                    <span class="counter" data-count="1000">1000+</span>
+                    <p>Annual Turnover (Cr)</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="counter-box">
+                    <span class="counter" data-count="7">7</span>
+                    <p>Years with Realme</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="counter-box">
+                    <span class="counter" data-count="50">50</span>
+                    <p>Distributor Network</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="experience-section container">
+        <p class="section-tag">EXPERIENCE & DISTRIBUTION</p>
+        <h2 class="section-title">Experience & Distribution Strength</h2>
+
+        <div class="experience-points">
+            <ul>
+                <li><i class="fa-solid fa-circle-check"></i> Strong experience in mobile & technology distribution</li>
+                <li><i class="fa-solid fa-circle-check"></i> Deep understanding of Rajasthan’s diverse markets</li>
+                <li><i class="fa-solid fa-circle-check"></i> Active presence across key districts and trade hubs</li>
+                <li><i class="fa-solid fa-circle-check"></i> Established dealer & retailer network</li>
+                <li><i class="fa-solid fa-circle-check"></i> Focus on steady growth, not short-term spikes</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- LOGO SLIDER -->
+    <section class="container my-5 logo-slider-section">
+        <p class="section-tag text-center">OUR PARTNERS</p>
+        <h2 class="section-title text-center mb-4">Trusted by Leading Brands</h2>
+
+        <div id="logoCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center flex-wrap gap-4">
+                        <img src="./assets/img/xerox_logo.jpg" alt="Xerox" class="logo-slide">
+                        <img src="./assets/img/panasonic_logo.png" alt="Panasonic" class="logo-slide">
+                        <img src="./assets/img/gionee_logo.png" alt="Gionee" class="logo-slide">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center flex-wrap gap-4">
+                        <img src="./assets/img/realme_logo.png" alt="Realme" class="logo-slide">
+                        <img src="./assets/img/HP_logo_2025.png" alt="HP" class="logo-slide">
+                        <img src="./assets/img/tecno_logo.png" alt="Tecno" class="logo-slide">
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#logoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#logoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container text-md-left">
+            <div class="row text-md-left align-items-start">
+
+                <!-- Logo & About -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <img src="./assets/img/logo.webp" alt="Titu Print Logo" class="footer-logo w-50">
+                    <p>Your trusted printing partner. Delivering high-quality prints for business and personal needs.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+                    <p><a href="home.html">Home</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="gallery.html">Gallery</a></p>
+                    <p><a href="contact-us.html">Contact</a></p>
+                </div>
+
+                <!-- Contact / Address -->
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+                    <p><i class="fas fa-home me-3"></i> Tituprint Private Limited, F-58 Malviya Nagar Industrial Area,
+                        Jaipur, Rajasthan 302017 <br>Near Birla Institute of Technology Mesra, Jaipur Campus</p>
+                    <p><i class="fas fa-envelope me-3"></i> <a href="hishmat@tituprint.net"
+                            class="">hishmat@tituprint.net</a></p>
+                    <p><i class="fas fa-phone me-3"></i> +91 80944 49444</p>
+
+                    <!-- Follow Us -->
+                    <h5 class="text-uppercase mb-4 font-weight-bold mt-3">Follow Us</h5>
+                    <a href="https://www.facebook.com/tituprintdotcom/" class="btn m-1"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/?next=%2Ftituprint%2F&source=omni_redirect&hl=en"
+                        class="btn m-1"><i class="fab fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/company/tituprint" class="btn  m-1"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Dark Mode Toggle Button (Footer Only) -->
+                    <div class="form-check form-switch mt-3">
+                        <input class="form-check-input" type="checkbox" id="darkModeToggle">
+                        <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <hr class="mb-4">
+
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>© 2026 Titu Print. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-5 col-lg-4 text-end">
+                    <p>Designed with ❤️ by Aditya</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        const toggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        // Load saved theme
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            toggle.checked = true;
+        }
+
+        // Toggle dark mode
+        toggle.addEventListener('change', function () {
+            body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
+        });
+
+        // Wait for the page to load
+        document.addEventListener("DOMContentLoaded", () => {
+            const scrollBtn = document.getElementById("scrollTopBtn");
+
+            // Show/hide button on scroll
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 200) {
+                    scrollBtn.style.display = "flex"; // make it visible
+                } else {
+                    scrollBtn.style.display = "none"; // hide when at top
+                }
+            });
+
+            // Scroll to top on click
+            scrollBtn.addEventListener("click", () => {
+                window.scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: "smooth" // smooth animation
+                });
+            });
+        });
+    </script>
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="btn btn-primary">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Font Awesome CDN for the icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+</body>
+
+</html>
